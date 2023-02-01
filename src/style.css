@@ -61,6 +61,55 @@ display: inline-block;
 
 footer {
     color: white;
+
+    background-image: linear-gradient(rgba(1, 31, 48, 0.9), rgba(1, 31, 48, 0.9)), url(../images/parc-guell.jpg) ;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+footer h3 {
+ font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 1.5;
+color: #FFFFFF; 
+
+}
+
+footer ul {
+margin: 0;
+padding: 0;
+
+}
+
+footer li {
+  list-style: none;
+  margin:0;
+}
+
+footer p {
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.5;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+footer a {
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.5;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+section {
+  max-width: 100%;
+  margin: 0, auto;
+  padding: 100px;
 }
 
 
@@ -69,7 +118,15 @@ footer {
     margin: 0 auto;
 }
 
-@media (max-width: 900px) {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
+}
+
+
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
