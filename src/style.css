@@ -218,6 +218,7 @@ padding: 0 30px 30px;
   width: 100%;
   display:block;
   aspect-ratio: 1 / 1;
+
 }
 
 .grid {
@@ -247,6 +248,10 @@ display: block;
   
 }
 
+.picture {
+  margin: 30px 0;
+}
+
 .secondary {
   background-color: #F8F8F8;;
 }
@@ -254,6 +259,12 @@ display: block;
 .text-center {
   text-align: center;
 }
+
+.margin-bottom-30px {
+  margin-bottom: 30px;
+}
+
+
 
 
 
